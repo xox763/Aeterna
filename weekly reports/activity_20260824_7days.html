@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html><head>
+
+
   <base target="_top">
   <meta charset="UTF-8">
   <style>
@@ -330,6 +330,8 @@
 
   
   
+
+  
     
 
   <div class="report-wrapper">
@@ -338,11 +340,11 @@
     </div>
 
     <div class="report-info">
-      <details id="dataOverview" class="slide-details" open>
+      <details id="dataOverview" class="slide-details" open="">
         <summary>Overview</summary>
         <div class="content">
           <table>
-                          <tr>
+                          <tbody><tr>
                 <td>Start Date</td>
                 <td>2026-08-24</td>
               </tr>
@@ -418,7 +420,7 @@
                 <td>Raid - Total Participants</td>
                 <td>28</td>
               </tr>
-                      </table>
+                      </tbody></table>
         </div>
       </details>
     </div>
@@ -427,7 +429,7 @@
               <div class="control-group">
           <label for="show-eval" title="Show or hide the column containing evaluation and rewards.">Show Evaluation</label>
           <label class="toggle-switch">
-            <input type="checkbox" id="show-eval"  onchange="toggleTableOption('hide-aux', this.checked )">
+            <input type="checkbox" id="show-eval" onchange="toggleTableOption('hide-aux', this.checked )">
             <span class="slider"></span>
           </label>
         </div>
@@ -437,27 +439,11 @@
 
       <table>
                 <thead>
-          <tr><th rowspan="2" data-type="text" data-column="0" data-sortable="true">Name <span class="sort-icon"></span></th><th rowspan="2" data-type="numeric" data-column="1" data-sortable="true">Days <span class="sort-icon"></span></th><th colspan="4">Daily Activities</th><th>GW</th><th colspan="2">Clash of Worlds</th><th colspan="4">Raid</th><th colspan="2" class="aux-col">Evaluation & Rewards</th></tr><tr><th data-type="numeric" data-column="2" data-sortable="true">Titanite <span class="sort-icon"></span></th><th data-type="numeric" data-column="3" data-sortable="true">Activity <span class="sort-icon"></span></th><th data-type="numeric" data-column="4" data-sortable="true">Guild Prestige <span class="sort-icon"></span></th><th data-type="numeric" data-column="5" data-sortable="true">Adventure <span class="sort-icon"></span></th><th data-type="numeric" data-column="6" data-sortable="true">Guild War <span class="sort-icon"></span></th><th data-type="numeric" data-column="7" data-sortable="true">Hero <span class="sort-icon"></span></th><th data-type="numeric" data-column="8" data-sortable="true">Titan <span class="sort-icon"></span></th><th data-type="numeric" data-column="9" data-sortable="true">Minions <span class="sort-icon"></span></th><th data-type="numeric" data-column="10" data-sortable="true">Morale <span class="sort-icon"></span></th><th data-type="numeric" data-column="11" data-sortable="true">Boss <span class="sort-icon"></span></th><th data-type="numeric" data-column="12" data-sortable="true">Damage <span class="sort-icon"></span></th><th data-type="numeric" data-column="13" data-sortable="true" class="aux-col">Evaluation Index <span class="sort-icon"></span></th><th data-type="numeric" data-column="14" data-sortable="true" class="aux-col">Present <span class="sort-icon"></span></th></tr>        </thead>
+          <tr><th rowspan="2" data-type="text" data-column="0" data-sortable="true" class="sortable">Name <span class="sort-icon"></span></th><th rowspan="2" data-type="numeric" data-column="1" data-sortable="true" class="sortable">Days <span class="sort-icon"></span></th><th colspan="4">Daily Activities</th><th>GW</th><th colspan="2">Clash of Worlds</th><th colspan="4">Raid</th><th colspan="2" class="aux-col">Evaluation &amp; Rewards</th></tr><tr><th data-type="numeric" data-column="2" data-sortable="true" class="sortable">Titanite <span class="sort-icon"></span></th><th data-type="numeric" data-column="3" data-sortable="true" class="sortable">Activity <span class="sort-icon"></span></th><th data-type="numeric" data-column="4" data-sortable="true" class="sortable">Guild Prestige <span class="sort-icon"></span></th><th data-type="numeric" data-column="5" data-sortable="true" class="sortable">Adventure <span class="sort-icon"></span></th><th data-type="numeric" data-column="6" data-sortable="true" class="sortable">Guild War <span class="sort-icon"></span></th><th data-type="numeric" data-column="7" data-sortable="true" class="sortable">Hero <span class="sort-icon"></span></th><th data-type="numeric" data-column="8" data-sortable="true" class="sortable">Titan <span class="sort-icon"></span></th><th data-type="numeric" data-column="9" data-sortable="true" class="sortable">Minions <span class="sort-icon"></span></th><th data-type="numeric" data-column="10" data-sortable="true" class="sortable">Morale <span class="sort-icon"></span></th><th data-type="numeric" data-column="11" data-sortable="true" class="sortable">Boss <span class="sort-icon"></span></th><th data-type="numeric" data-column="12" data-sortable="true" class="sortable">Damage <span class="sort-icon"></span></th><th data-type="numeric" data-column="13" data-sortable="true" class="aux-col sortable">Evaluation Index <span class="sort-icon"></span></th><th data-type="numeric" data-column="14" data-sortable="true" class="aux-col sortable">Present <span class="sort-icon"></span></th></tr>        </thead>
                         <tbody>
           <tr><td>[[Del-Monte]]</td><td>7</td><td>1155</td><td>31K</td><td>28.5K</td><td>6</td><td>-</td><td>3</td><td>3</td><td>9</td><td>647</td><td>5</td><td>5.75M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Anophelus</td><td>7</td><td>3376</td><td>48.9K</td><td>35K</td><td>15</td><td>6/10</td><td>6</td><td>2</td><td>9</td><td>650</td><td>5</td><td>101M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>AntuBET212</td><td>7</td><td>1155</td><td>26K</td><td>28K</td><td class="eval-zero">0</td><td>-</td><td>2</td><td>2</td><td>9</td><td>650</td><td>5</td><td>7.17M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Bertman</td><td>7</td><td>3015</td><td>20.5K</td><td>23.4K</td><td>7</td><td>-</td><td>3</td><td>1</td><td>9</td><td>650</td><td>2</td><td>13.4M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Dangan</td><td>7</td><td>2175</td><td>12.4K</td><td>27.5K</td><td>16</td><td>-</td><td>2</td><td class="eval-zero">0</td><td>9</td><td>546</td><td>5</td><td>2.19M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Ekonom</td><td>7</td><td>885</td><td>39.2K</td><td>19.6K</td><td class="eval-zero">0</td><td>-</td><td>6</td><td>4</td><td>9</td><td>650</td><td>3</td><td>3.91M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Esi</td><td>7</td><td>4415</td><td>34.5K</td><td>31.7K</td><td>18</td><td>4/10</td><td>6</td><td>4</td><td>9</td><td>530</td><td>5</td><td>14.9M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>hydee</td><td>7</td><td>300</td><td>21.4K</td><td>9060</td><td class="eval-zero">0</td><td>4/10</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td>4</td><td>182</td><td>5</td><td>2.82M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Ihg</td><td>7</td><td>2657</td><td>44K</td><td>33.4K</td><td>16</td><td>8/10</td><td>6</td><td>4</td><td>9</td><td>650</td><td>5</td><td>69M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Joe 279</td><td>7</td><td>4481</td><td>35.9K</td><td>26K</td><td>5</td><td>4/10</td><td>3</td><td>4</td><td>9</td><td>975</td><td>5</td><td>13.4M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Joe Black</td><td>7</td><td>1448</td><td>15.3K</td><td>29.3K</td><td>18</td><td>8/10</td><td>4</td><td>3</td><td>9</td><td>650</td><td>5</td><td>16.9M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>killerado</td><td>7</td><td>7125</td><td>49.2K</td><td>35K</td><td>17</td><td>10/10</td><td>6</td><td>4</td><td>9</td><td>650</td><td>5</td><td>85.7M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Kolm</td><td>7</td><td>1409</td><td>73.8K</td><td>33.5K</td><td>14</td><td>-</td><td>5</td><td>1</td><td>9</td><td>613</td><td>5</td><td>39.9M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Magis</td><td>7</td><td>1675</td><td>16.6K</td><td>25.4K</td><td>12</td><td>-</td><td>5</td><td>2</td><td>9</td><td>650</td><td>1</td><td>12.4M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>mo-mo</td><td>7</td><td>1575</td><td>54.3K</td><td>31.7K</td><td>17</td><td>10/10</td><td>6</td><td>4</td><td>9</td><td>650</td><td>5</td><td>23.3M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Ralfda1derLlama</td><td>7</td><td>2205</td><td>26.5K</td><td>27.4K</td><td>14</td><td>6/10</td><td>6</td><td>4</td><td>9</td><td>650</td><td>1</td><td>16.2M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Random</td><td>7</td><td>2745</td><td>361K</td><td>25.2K</td><td>13</td><td>6/10</td><td>6</td><td>4</td><td>9</td><td>650</td><td>5</td><td>17M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Reikachan</td><td>7</td><td>2450</td><td>13.2K</td><td>31K</td><td>15</td><td>5/10</td><td>1</td><td>2</td><td>9</td><td>650</td><td>5</td><td>13.8M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Rody</td><td>7</td><td>808</td><td>17.2K</td><td>32.4K</td><td>10</td><td>-</td><td>4</td><td>2</td><td>9</td><td>650</td><td>5</td><td>5.96M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Seraph</td><td>7</td><td>1894</td><td>31.9K</td><td>32.8K</td><td>18</td><td>10/10</td><td>6</td><td>4</td><td>9</td><td>650</td><td>5</td><td>19.4M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>sLy</td><td>7</td><td>1768</td><td>21.7K</td><td>27.6K</td><td class="eval-zero">0</td><td>-</td><td>5</td><td>4</td><td>9</td><td>650</td><td>5</td><td>8.41M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>SodCheun</td><td>7</td><td>2001</td><td>41.8K</td><td>26.2K</td><td>7</td><td>-</td><td>6</td><td>4</td><td>9</td><td>650</td><td>5</td><td>16.2M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Sono</td><td>7</td><td>1125</td><td>7650</td><td>25.2K</td><td>7</td><td>-</td><td>3</td><td>2</td><td>9</td><td>624</td><td>5</td><td>7.98M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Synapse</td><td>7</td><td>3599</td><td>40.9K</td><td>26.7K</td><td>18</td><td>8/10</td><td>6</td><td>4</td><td>9</td><td>650</td><td>5</td><td>23.4M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Team 17</td><td>7</td><td>2370</td><td>16.2K</td><td>21.1K</td><td class="eval-zero">0</td><td class="eval-zero">0/10</td><td class="eval-zero">0</td><td>1</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Team 899</td><td>7</td><td>1788</td><td>28.4K</td><td>28.1K</td><td>17</td><td>10/10</td><td>5</td><td>4</td><td>9</td><td>650</td><td>5</td><td>38.7M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Team Hero</td><td>7</td><td>2122</td><td>12.9K</td><td>24.9K</td><td>4</td><td>-</td><td>3</td><td>2</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td>5</td><td>1.16M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>The-C-Team</td><td>7</td><td>1155</td><td>30.8K</td><td>28.5K</td><td>6</td><td>-</td><td>3</td><td>3</td><td>9</td><td>650</td><td>5</td><td>7.53M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>Vistro</td><td>7</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td>-</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero">0</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr><tr><td>xxK4d3h4r4xx</td><td>7</td><td>1155</td><td>32.3K</td><td>28.3K</td><td class="eval-zero">0</td><td>-</td><td>3</td><td>4</td><td>9</td><td>650</td><td>5</td><td>10M</td><td class="eval-zero aux-col">0</td><td class="aux-col">0</td></tr>        </tbody>
                         <tfoot>
           <tr><td>TOTAL</td><td>210</td><td>64K</td><td>1.21M</td><td>803K</td><td>290</td><td>99/150</td><td>120</td><td>82</td><td>238</td><td>17.1K</td><td>127</td><td>597M</td><td class="aux-col">0</td><td class="aux-col">0</td></tr><tr><td>AVERAGE</td><td>7</td><td>2134.4</td><td>40.2K</td><td>26.8K</td><td>9.7</td><td>6.6/5</td><td>4</td><td>2.7</td><td>7.9</td><td>570.6</td><td>4.2</td><td>19.9M</td><td class="aux-col">0</td><td class="aux-col">0</td></tr>
-                      <tr id="report-comment"><td colspan="15">
-              <div class="report-comment">
-                <ul>
-                                      <li>
-                      <span style="color: #ff5733;">*</span> #REF!                    </li>
-                                      <li>
-                      <span style="color: #ff5733;">*</span> #REF!                    </li>
-                                      <li>
-                      <span style="color: #ff5733;">*</span> #REF!                    </li>
-                                      <li>
-                      <span style="color: #ff5733;">*</span> #REF!                    </li>
-                                      <li>
-                      <span style="color: #ff5733;">*</span> #REF!                    </li>
-                                  </ul>
-              </div>
-            </td></tr>
                     </tfoot>
               </table>
 
@@ -891,5 +877,5 @@
       doNext();
     });
   </script>
-</body>
-</html>
+
+</body></html>
